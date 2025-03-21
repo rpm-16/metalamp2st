@@ -85,10 +85,10 @@ module.exports = {
     //plugins
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
-        new HtmlWebpackPlugin({
-            title: 'Custom template',
-            filename: 'main.html',
-        }),
+        // new HtmlWebpackPlugin({
+        //     title: 'Custom template',
+        //     filename: 'main.html',
+        // }),
         new CleanWebpackPlugin(),
         // css create new files
         new MiniCssExtractPlugin({filename: `./css/[name].css`}),

@@ -1,5 +1,9 @@
-$basecolor: #ccc;
+@import url(_colors.scss);
+@import url(_fonts.scss);
+@import url(_margins.scss);
 
-body {
-    background: $basecolor;
-}
+//layouts
+@import '../pug/layouts/uikit/uikit';
+
+//pages
+@import '../pug/pages/colorstypes/colorstypes';
