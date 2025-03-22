@@ -37,7 +37,10 @@
     "ion-rangeslider": "^2.3.1",
     "jquery": "^3.6.0",
     "node-sass": "^7.0.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "air-datepicker": "^3.1.1",
+    "file-loader": "^6.2.0"
+
   },
   "description": ""
 }
